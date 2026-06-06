@@ -1,0 +1,19 @@
+{
+  "name": "projeto-api-professores",
+  "version": "1.0.0",
+  "description": "API REST com arquitetura MVC para cadastro de professores (Node.js, Express e MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

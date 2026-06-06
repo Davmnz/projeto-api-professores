@@ -40,7 +40,7 @@ Abra o MySQL e execute o conteúdo do arquivo `database.sql`. Ele cria o banco `
 npm install
 ```
 
-### 3. Ajustar a conexão (se necessário)
+### 3. Ajustar a conexão (se pecisar)
 Edite `src/database/conexao.js` e configure `user` e `password` de acordo com o seu MySQL.
 
 ### 4. Iniciar o servidor
@@ -86,5 +86,3 @@ O servidor sobe em `http://localhost:3000`.
 **GET** `http://localhost:3000/professores` e **GET** `http://localhost:3000/professores/1` — sem body.
 
 **DELETE** `http://localhost:3000/professores/1` — sem body.
-
-> Dica: no Postman, em requisições POST/PUT, vá em **Body → raw → JSON**.
